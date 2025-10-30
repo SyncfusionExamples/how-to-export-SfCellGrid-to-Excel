@@ -1,8 +1,8 @@
-# How-to-export-SfCellGrid-to-Excel
+# How to Export UWP CellGrid to Excel?
 
-This example demonstartes that how to export `SfCellGrid` to Excel.
+This example demonstartes that how to export [UWP CellGrid](https://help.syncfusion.com/uwp/cellgrid/overview) (SfCellGrid) to Excel.
 
-SfCellGrid does not have built-in function to export the grid data to excel. To export the data into excel, create a new excel file using the `ExcelEngine` and set the grid data to worksheet cells using `IRange.Value` property and save that modified workbook.
+CellGrid does not have built-in function to export the grid data to excel. To export the data into excel, create a new excel file using the **ExcelEngine** and set the grid data to worksheet cells using **IRange.Value** property and save that modified workbook.
 
 ``` c#
 //Convert to excel
